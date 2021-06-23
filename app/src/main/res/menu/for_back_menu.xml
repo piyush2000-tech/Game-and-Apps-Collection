@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/backword"
+        android:title="Backword"
+        android:icon="@drawable/ic_backword"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/forward"
+        android:title="Forward"
+        android:icon="@drawable/ic_forward"
+        app:showAsAction="always"/>
+
+</menu>

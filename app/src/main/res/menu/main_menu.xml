@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:checkableBehavior="single">
+    <item android:title="DashBoard"
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_dashboard"/>
+    <item android:title="Privacy Policy"
+        android:id="@+id/privacy"
+        android:icon="@drawable/ic_privacy">
+    </item>
+    <item android:title="FAQ's"
+        android:id="@+id/help"
+        android:icon="@drawable/ic_help">
+    </item>
+
+    <item android:title="About App"
+        android:id="@+id/aboutApp"
+        android:icon="@drawable/ic_about_app">
+    </item>
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="always">
+    </item>
+    <item android:title="Modules">
+        <menu>
+            <item android:title="Tic Tac Toe Game"
+                android:id="@+id/ticTacGame" />
+            <item android:title="Brain Game"
+                android:id="@+id/brainGame" />
+            <item android:title="Google"
+                android:id="@+id/google" />
+            <item android:title="Social Media"
+                android:id="@+id/social" />
+            <item android:title="Online Learning"
+                android:id="@+id/online" />
+            <item android:title="Tutorials sites"
+                android:id="@+id/sites" />
+            <item android:title="Shopping"
+                android:id="@+id/shopping" />
+            <item android:title="Music sites"
+                android:id="@+id/music_sites" />
+        </menu>
+    </item>
+    </group>
+
+</menu>

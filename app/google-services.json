@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "793470019780",
+    "firebase_url": "https://game-and-apps-collection.firebaseio.com",
+    "project_id": "game-and-apps-collection",
+    "storage_bucket": "game-and-apps-collection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793470019780:android:2161ea865c8af8daa20191",
+        "android_client_info": {
+          "package_name": "com.gameandapps.collection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793470019780-4d4f4kv1fuabht7sni7uf11luue97jc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoXbVolvKNGgyrA4I6GhXCuC2rkcw9b2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793470019780-4d4f4kv1fuabht7sni7uf11luue97jc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

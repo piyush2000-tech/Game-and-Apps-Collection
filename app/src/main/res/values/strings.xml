@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Game and Apps Collection</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">Settings Fragment</string>
+    <string name="game_Collection">Game Collections</string>
+    <string name="shopping_descrption"># In this module all manage shopping apps.   # In this module 8 sub-modules :   1.Amazon  2.Flipkart  3.Paytm  4.Alibaba  5.Myntra  6.Snapdeal  7.Ebay  8.Justdial   # You manage all shopping sites accounts in one app.   # More relible.   # Fastly access.   # Also see news on justdial.   # Excellent collection of shopping sites.   # Less memory requried.</string>
+</resources>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AboutAppFragment"
+    android:background="#DCD6D0CB">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imglogo"
+            android:layout_centerHorizontal="true"
+            android:padding="8dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/splashlogo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/appName"
+            android:layout_below="@+id/imglogo"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="version 2.0"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/appName"/>
+
+        <TextView
+            android:id="@+id/modules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Modules"
+            android:textSize="18sp"
+            android:textColor="#0A0A0A"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/version"
+            android:padding="12dp"
+            android:layout_marginTop="14dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:id="@+id/tictac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1. Tic Tac Toe Game"
+            android:layout_below="@+id/modules"
+            android:textSize="16sp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+        <TextView
+            android:id="@+id/brain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 2. Brain Game"
+            android:layout_below="@+id/tictac"
+            android:textSize="16sp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/socialMedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 3. Social Media"
+            android:layout_below="@+id/brain"
+            android:textSize="16sp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+        <TextView
+            android:id="@+id/onlineLearning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 4. Online Learning"
+            android:layout_below="@+id/socialMedia"
+            android:textSize="16sp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/tutorialsSites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 5. Tutorials Sites"
+            android:layout_below="@+id/onlineLearning"
+            android:textSize="16sp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+        <TextView
+            android:id="@+id/googleSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 6. Google"
+            android:layout_below="@+id/tutorialsSites"
+            android:textSize="16sp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+        <TextView
+            android:id="@+id/shopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 7. Shopping"
+            android:layout_below="@+id/googleSearch"
+            android:textSize="16sp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/musicsites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 8. Music Sites"
+            android:layout_below="@+id/shopping"
+            android:textSize="16sp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/modulesDescrption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modules Descrption"
+            android:textSize="18sp"
+            android:textColor="#0A0A0A"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/musicsites"
+            android:padding="12dp"
+            android:layout_marginTop="14dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:id="@+id/tictacHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1. Tic Tac Toe Game :"
+            android:layout_below="@+id/modulesDescrption"
+            android:textSize="16sp"
+            android:textColor="#0a0a0a"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/tictacDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" # In this module you play tic-tac game.\n\n # This is two player game.\n\n # You have won this game then automatically add points in your coin color.
+\n\n # You also play again game."
+            android:layout_below="@+id/tictacHead"
+            android:textSize="14sp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/brainHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 2. Brain Game :"
+            android:layout_below="@+id/tictacDes"
+            android:textSize="16sp"
+            android:textColor="#0a0a0a"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/brainDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" # In this module you play brain game.\n\n # In this game 4 modules :\n   1.sum\n   2.multiplication\n   3.subtraction\n   4.reminder.\n\n
+# Each module random ask questions and you choose answer from 4 options.\n\n # Also timer in this game.\n\n
+# Result also show in this game.\n\n
+# It's very interesting and knowledge testing game.\n\n
+# You can also play again game."
+            android:layout_below="@+id/brainHead"
+            android:textSize="14sp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/socialHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 3. Social Media :"
+            android:layout_below="@+id/brainDes"
+            android:textSize="16sp"
+            android:textColor="#0a0a0a"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/socialDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" # In this module all social media apps.\n\n # In this module 7 sub-modules : \n   1.Instagram\n   2.Twitter\n   3.Facebook\n   4.YouTube\n   5.WhatsApp\n   6.Linkedin\n   7.Pinterest\n   8.Snapchat\n   9.Messanger\n\n  # You manage all social media accounts in one app.\n\n  # More relible.\n\n  # Fastly access.\n\n  # It's very interesting..\n\n  # Less memory requried."
+            android:layout_below="@+id/socialHead"
+            android:textSize="14sp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/onlineHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 4. Online Learning :"
+            android:layout_below="@+id/socialDes"
+            android:textSize="16sp"
+            android:textColor="#0a0a0a"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/onlineDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" # In this module online learning sites.\n\n # In this module 3 sub-modules : \n   1.Coursera\n   2.Unacademy\n   3.Udemy\n\n # You manage all learning accounts in one app.\n\n
+# More relible.\n\n
+# It's very interesting..\n\n
+# Less memory requried.\n\n # User Interface(UI) very attractive."
+            android:layout_below="@+id/onlineHead"
+            android:textSize="14sp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/tutorialHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 5. Tutorials Sites :"
+            android:layout_below="@+id/onlineDes"
+            android:textSize="16sp"
+            android:textColor="#0a0a0a"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/tutorialsDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" # In this module online learning tutorials sites.\n\n # In this module 5 sub-modules : \n   1. GeeksforGeeks\n   2. JavaTPoint\n   3. TutorialsPoint\n   4. W3School\n   5. HackersRank\n\n # You manage all learning tutorials sites in one app.\n\n # Less time required to access all tutorials.\n\n # Easily to read.\n\n # Good Performance.\n\n # It's very interesting..\n\n # Less memory requried.\n\n # User Interface(UI) very attractive."
+            android:layout_below="@+id/tutorialHead"
+            android:textSize="14sp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/googleHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 6. Google :"
+            android:layout_below="@+id/tutorialsDes"
+            android:textSize="16sp"
+            android:textColor="#0a0a0a"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/googleDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" # In this module google search.\n\n # Easily to search.\n\n # Good Performance\n\n # It's very interesting..\n\n # It's very less size consume in your mobile."
+            android:layout_below="@+id/googleHead"
+            android:textSize="14sp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/shoppingHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 7. Shopping :"
+            android:layout_below="@+id/googleDes"
+            android:textSize="16sp"
+            android:textColor="#0a0a0a"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/shoppingDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shopping_descrption"
+            android:layout_below="@+id/shoppingHead"
+            android:textSize="14sp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/musicHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 8. Music sites :"
+            android:layout_below="@+id/shoppingDes"
+            android:textSize="16sp"
+            android:textColor="#0a0a0a"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/musicDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" # In this module manage all music sites.\n\n # In this module 9 sub-modules : \n   1.Gaana\n   2.Wynk Music\n   3.YouTube Music\n   4.SoundClick\n   5.Hungama Music\n   6.Reverbnation\n   7.PagalWorld\n   8.JioSaavn\n   9.Spotify\n\n  # You manage all music sites accounts in one app.\n\n  # More relible.\n\n  # Fastly access to play music in different sites.\n\n  # One time to play music in one music site.\n\n  # Users also play music in background.\n\n  # Excellent collection of music sites.\n\n  # Less memory requried in your phone to manage it."
+            android:layout_below="@+id/musicHead"
+            android:textSize="14sp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="12dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>
